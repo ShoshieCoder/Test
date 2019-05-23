@@ -30,7 +30,7 @@ namespace rtional
                 this.denominator = denominator;
             }
 
-            public bool GreaterThen(Rational other)
+            public bool GreaterThan(Rational other)
             {
                 if (this.numerator * other.denominator > this.denominator * other.numerator)
                     return true;
